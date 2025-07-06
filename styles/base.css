@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat:wght@500&display=swap");
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #036;
+  color: #fff;
+  padding: 1rem;
+}
+
+#course-title {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #036;
+  border-radius: 5px;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+/* Custom card themes */
+.card-left {
+  background-color: #e0f7fa; /* light cyan */
+  flex-direction: row;
+}
+
+.card-right {
+  background-color: #fce4ec; /* light pink */
+  flex-direction: row-reverse;
+}
+
+.card-img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-content {
+  flex: 1;
+}
+
+/* Responsive layout */
+@media (max-width: 700px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-right {
+    flex-direction: column;
+  }
+
+  .card-img {
+    max-width: 100%;
+  }
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eeeeee;
+}
