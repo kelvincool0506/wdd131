@@ -69,10 +69,9 @@ nav {
     padding: 0 1rem;
 }
 
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
+main { 
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .temple-grid {
@@ -108,7 +107,7 @@ figcaption {
 
 footer {
     background-color: #003366;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
@@ -116,7 +115,7 @@ footer {
 
 @media (min-width: 768px) {
     #hamburger {
-        display: none;
+        display: flex;
     }
     
     .navigation {
