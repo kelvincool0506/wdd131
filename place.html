@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Destination</title>
+    <meta name="description" content="Explore this beautiful destination with stunning views and great weather">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Beautiful Destination</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/place-small.webp">
+                <source media="(min-width: 601px)" srcset="images/place-large.webp">
+                <img src="images/place-large.webp" alt="Scenic view of destination" loading="lazy">
+            </picture>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <div class="weather-content">
+                <div class="weather-icon">
+                    <img src="images/weather-icon.svg" alt="Weather icon" class="mobile-icon">
+                </div>
+                <div class="weather-data">
+                    <p>Current: <span id="temp">50</span>°F</p>
+                    <p>Wind Speed: <span id="wind-speed">10</span> mph</p>
+                    <p>Wind Chill: <span id="wind-chill">N/A</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <h2>About This Place</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Beautiful Destination</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
