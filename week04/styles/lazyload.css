@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 420px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  width: 400px;
+  height: auto;
+  margin: 20px auto;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: brightness(0);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+}
