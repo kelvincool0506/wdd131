@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album - Kelvin Onoha</title>
+    <meta name="description" content="A collection of beautiful temple photographs">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Mobile-first CSS -->
+    <link rel="stylesheet" href="styles/temples.css">
+    <!-- Large screen CSS -->
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 768px)">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Temple Album</h1>
+            <button id="hamburger">☰</button>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>My Favorite Temples</h1>
+        <div class="temple-grid">
+            <figure>
+                <img src="images/salt-lake-temple.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Salt Lake Temple, Utah, USA</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rome-temple.jpg" alt="Rome Italy Temple" loading="lazy">
+                <figcaption>Rome Italy Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/kyiv-temple.jpg" alt="Kyiv Ukraine Temple" loading="lazy">
+                <figcaption>Kyiv Ukraine Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/tokyo-temple.jpg" alt="Tokyo Japan Temple" loading="lazy">
+                <figcaption>Tokyo Japan Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/paris-temple.jpg" alt="Paris France Temple" loading="lazy">
+                <figcaption>Paris France Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/johannesburg-temple.jpg" alt="Johannesburg South Africa Temple" loading="lazy">
+                <figcaption>Johannesburg South Africa Temple</figcaption>
+            </figure>
+            
+        </div>
+        <main>
+  <section id="templeCards"></section>
+</main>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Temple Album | Last Modified: <span id="lastmodified"></span></p>
+    </footer>
+
+    <script src="scripts/temples.js" defer></script>
+</body>
+</html>
