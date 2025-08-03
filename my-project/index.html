@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberNest - Your Digital Safety Hub</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <h1>CyberNest</h1>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Your Personal Guide to Safer Digital Living</h1>
+            <p>Protect your online identity, secure your data, and navigate the digital world with confidence using our expert security guides and resources.</p>
+            <div class="hero-buttons">
+                <a href="guides.html" class="btn">Explore Guides</a>
+                <a href="contact.html" class="btn btn-accent">Get Protected</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Essential Digital Protection</h2>
+                <p>Learn how to safeguard your digital life with our comprehensive security features</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Password Management</h3>
+                    <p>Create and manage strong, unique passwords for all your accounts. Learn best practices for password security.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Phishing Detection</h3>
+                    <p>Identify and avoid phishing attempts that try to steal your personal information.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>Wi-Fi Security</h3>
+                    <p>Secure your home network and learn how to safely use public Wi-Fi hotspots.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Security in Action</h2>
+                <p>Visual guides to implementing security measures</p>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-slider" id="gallerySlider">
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80" alt="Two-factor authentication" loading="lazy">
+                        <div class="slide-content">
+                            <h3>Two-Factor Authentication</h3>
+                            <p>Add an extra layer of security to your accounts with 2FA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1563014959-7aaa83350992?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80" alt="Secure browsing" loading="lazy">
+                        <div class="slide-content">
+                            <h3>Secure Browsing Habits</h3>
+                            <p>Learn how to browse the web safely and avoid malicious sites</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1594322436404-5a0526db4d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600&q=80" alt="Data encryption" loading="lazy">
+                        <div class="slide-content">
+                            <h3>Data Encryption Essentials</h3>
+                            <p>Protect your sensitive information with encryption techniques</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-controls">
+                    <div class="gallery-dots" id="galleryDots">
+                        <div class="dot active" data-slide="0"></div>
+                        <div class="dot" data-slide="1"></div>
+                        <div class="dot" data-slide="2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>CyberNest</h3>
+                    <p>Your trusted partner in digital security. We provide resources and guidance to help you navigate the online world safely.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="guides.html">Security Guides</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="references.html">References</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Security Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Password Generator</a></li>
+                        <li><a href="#">Security Checklist</a></li>
+                        <li><a href="#">Phishing Test</a></li>
+                        <li><a href="#">Data Breach Checker</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive security tips and updates</p>
+                    <form id="newsletterForm" class="footer-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-accent">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 CyberNest. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
