@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Confirmation</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Review Submitted Successfully</h1>
+            <p>Thank you for your valuable feedback!</p>
+        </header>
+        
+        <main>
+            <div class="confirmation">
+                <div class="success-icon">✓</div>
+                <p class="success-message">Your review has been submitted successfully!</p>
+                
+                <div class="review-details">
+                    <h2>Review Summary</h2>
+                    <div class="detail-item">
+                        <span class="detail-label">Product:</span>
+                        <span id="review-product" class="detail-value">Loading...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Rating:</span>
+                        <span id="review-rating" class="detail-value">Loading...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Installation Date:</span>
+                        <span id="review-date" class="detail-value">Loading...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Useful Features:</span>
+                        <span id="review-features" class="detail-value">Loading...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Review:</span>
+                        <span id="review-text" class="detail-value">Loading...</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Name:</span>
+                        <span id="review-name" class="detail-value">Loading...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="counter-display">
+                Total Reviews Submitted: <span id="confirmation-count">0</span>
+            </div>
+            
+            <div class="actions">
+                <a href="form.html" class="back-btn">Submit Another Review</a>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2023 Product Reviews | All Rights Reserved</p>
+            <p>Confirmation ID: PRF-CONF-2023-001</p>
+        </footer>
+    </div>
+
+    <script src="js/review-script.js"></script>
+</body>
+</html>

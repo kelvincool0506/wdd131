@@ -23,7 +23,6 @@ document.querySelectorAll('.navigation a').forEach(link => {
 });
 
 // ──────────────────────────────────────────────────────────────
-// Temple data array (with your 3 new entries already appended)
 const temples = [
   {
     templeName: "Aba Nigeria",
